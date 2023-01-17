@@ -1,0 +1,138 @@
+    .hide {
+      display: none;
+    }
+
+    .text-explode>span {
+      display: inline-block;
+      pointer-events: none;
+      /* transition: transform .1s ease-in-out; */
+    }
+
+    nav>a:hover{
+        color: #333;
+        /* border: 1px solid black; */
+    }
+    
+
+    #smiley {
+        display: inline-block;
+        -webkit-animation: spin 8s linear infinite;
+                animation: spin 8s linear infinite;
+                margin-left: 15px;
+                /* border: 2px solid red; */
+             }
+    
+        @-webkit-keyframes spin {
+            from {
+              -webkit-transform: rotate(0deg); }
+            to {
+              -webkit-transform: rotate(360deg); } }
+          
+          @keyframes spin {
+            from {
+              -webkit-transform: rotate(0deg);
+                      transform: rotate(0deg); }
+            to {
+              -webkit-transform: rotate(360deg);
+                      transform: rotate(360deg); } }
+                      
+    @media (min-width: 768px) {
+      body {
+        cursor: url("/assets/See\ No\ Evil\ Monkey\ Emoji.png") 0 0, pointer;
+        cursor: -webkit-image-set(url("/assets/See\ No\ Evil\ Monkey\ Emoji.png") 1x, url("/assets/See\ No\ Evil\ Monkey\ Emoji.png") 2x) 0 0, pointer;
+      }
+
+      a {
+        cursor: url("/assets/Hear\ No\ Evil\ Monkey\ Emoji.png") 0 0, pointer;
+        cursor: -webkit-image-set(url("/assets/Hear\ No\ Evil\ Monkey\ Emoji.png") 1x, url("/assets/Hear\ No\ Evil\ Monkey\ Emoji.png") 2x) 0 0, pointer;
+      }
+    }
+
+    @media (min-width: 940px) {
+      .container {
+        width: 940px;
+      }
+
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+
+    ::selection {
+      color: #222222;
+      background: #f4f1ee;
+    }
+
+    .grid {
+      display: grid;
+    }
+
+    @media (min-width: 768px) {
+      .grid {
+        grid-column-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+
+    .grid-item {
+      margin-bottom: 20px;
+    }
+
+    /* hide two middle */
+    .grid-col--2,
+    .grid-col--3 {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .grid-col--2 {
+        display: block;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .grid-col--3 {
+        display: block;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .work-hover:hover img {
+        transform: scale(1.05);
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+      }
+
+      .work-hover img {
+        transition: 200ms transform ease;
+      }
+    }
+
+    /* about */
+                .contact-separator::before {
+                  content: " ";
+                  background-image: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0));
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100px;
+                  height: 100%;
+                }
+  
+                .contact-separator::after {
+                  content: " ";
+                  background-image: linear-gradient(270deg, #fff, rgba(255, 255, 255, 0));
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  width: 100px;
+                  height: 100%;
+                }

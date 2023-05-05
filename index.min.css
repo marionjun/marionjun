@@ -1937,7 +1937,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   height: 180px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2881,6 +2881,7 @@ li {
   }
   .fade {
     height: 100px;
+    padding-bottom: 40px;
   }
   .container {
     width: 970px;

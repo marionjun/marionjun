@@ -1937,7 +1937,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   height: 180px;
-  padding-bottom: 48px;
+  padding-bottom: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2951,6 +2951,10 @@ li {
   .work-top-title {
     width: 40%;
   }
+  .hi {
+    width: 50px;
+    margin-top: -14px;
+  }
   .menu-button {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3121,6 +3125,13 @@ li {
   .headline-syne {
     margin-bottom: 4px;
     font-size: 36px;
+  }
+  .hi {
+    width: 50px;
+    margin-top: -14px;
+  }
+  .headline-grandslang{
+    font-size: 40px;
   }
   .headline-syne.pad-right {
     padding-right: 0;
@@ -3336,7 +3347,7 @@ li {
   }
   .fade {
     height: 130px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
   }
   .headline-1 {
     font-size: 24px;
@@ -3409,8 +3420,12 @@ li {
     flex: 0 auto;
   }
   .headline-syne {
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 23px;
+    line-height: 20px;
+  }
+  .hi {
+    width: 30px;
+    margin-top: -10px;
   }
   .image-thirds,
   .work-top {
@@ -3503,7 +3518,7 @@ li {
   .headline-grandslang {
     display: inline-block;
     font-family: "GrandSlang B-Side", sans-serif;
-    font-size: 32px;
+    font-size: 23px;
     line-height: 38px;
   }
   .hero-headline-3 {

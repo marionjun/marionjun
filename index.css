@@ -35,6 +35,11 @@
             to {
               -webkit-transform: rotate(360deg);
                       transform: rotate(360deg); } }
+
+    .hi {
+      width: 60px;
+      margin-top: -14px;
+    }
                       
     @media (min-width: 768px) {
       body {

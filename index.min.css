@@ -2172,7 +2172,7 @@ li {
   margin-bottom: 0;
 }
 .headline-syne.hero-headline-2 {
-  margin-bottom: 12px;
+  margin-bottom: 22px;
 }
 .heading {
   font-size: 24px;
@@ -2743,10 +2743,10 @@ li {
   margin-bottom: 0;
   font-family: "GrandSlang B-Side", sans-serif;
   color: #222;
-  font-size: 64px;
-  line-height: 60px;
+  font-size: 24px;
+  line-height: 40px;
   font-weight: 400;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .headline-grandslang.about-headline {
   margin-top: 0;
@@ -3062,14 +3062,15 @@ li {
     height: 120px;
   }
   .headline-grandslang {
-    font-size: 46px;
+    font-size: 18px;
+    line-height: 26px;
   }
   .hero-headline-4 {
     margin-bottom: 8px;
     font-size: 40px;
   }
   .wave-wrapper {
-    margin-bottom: 12px;
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -3124,7 +3125,7 @@ li {
     align-self: stretch;
   }
   .headline-syne {
-    margin-bottom: 4px;
+    margin-bottom: 0;
     font-size: 36px;
   }
   .hi {
@@ -3132,7 +3133,7 @@ li {
     margin-top: -14px;
   }
   .headline-grandslang{
-    font-size: 40px;
+    font-size: 19px;
   }
   .headline-syne.pad-right {
     padding-right: 0;
@@ -3141,7 +3142,8 @@ li {
     display: none;
   }
   .headline-syne.hero-headline-2 {
-    display: inline;
+    /* display: inline; */
+    margin-bottom: 22px;
   }
   .work-top-description {
     width: 100%;
@@ -3593,9 +3595,9 @@ li {
 }
 @font-face {
   font-family: "GrandSlang B-Side";
-  src: url("https://uploads-ssl.webflow.com/5e8317a39a30c52d3b1c7a4c/5e975de7b7de262506b9f0cf_GrandSlang-B-Side.woff2")
+  src: url("https://uploads-ssl.webflow.com/5e8317a39a30c52d3b1c7a4c/5e98133c35e37a88439fc658_SpaceGrotesk-Medium.woff2")
       format("woff2"),
-    url("https://uploads-ssl.webflow.com/5e8317a39a30c52d3b1c7a4c/5e975de7307f73532ee15640_GrandSlang-B-Side.woff")
+    url("https://uploads-ssl.webflow.com/5e8317a39a30c52d3b1c7a4c/5e98133c65f7a934e2509f4d_SpaceGrotesk-Medium.woff")
       format("woff");
   font-weight: 400;
   font-style: normal;

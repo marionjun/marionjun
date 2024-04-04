@@ -3423,8 +3423,8 @@ li {
     flex: 0 auto;
   }
   .headline-syne {
-    font-size: 23px;
-    line-height: 20px;
+    font-size: 27px;
+    line-height: 35px;
   }
   .hi {
     width: 30px;
@@ -3521,8 +3521,8 @@ li {
   .headline-grandslang {
     display: inline-block;
     font-family: "GrandSlang B-Side", sans-serif;
-    font-size: 23px;
-    line-height: 38px;
+    font-size: 15px;
+    line-height: 21px;
   }
   .hero-headline-3 {
     display: block;
